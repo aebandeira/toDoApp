@@ -1,0 +1,17 @@
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.input {
+  border-radius: 0.25rem;
+  font-size: 18px;
+  box-shadow: 0px 5px 5px #00000054;
+}
+
+.button-form {
+  box-shadow: 0px 5px 5px #00000054;
+  margin-left: 5px;
+}

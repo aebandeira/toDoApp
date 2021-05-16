@@ -1,0 +1,33 @@
+.todo-item {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.todo-item__text {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.todo-item__date {
+  color: grey;
+  font-size: 15px;
+}
+
+.todo-item__button {
+  margin-left: 5px;
+}
+
+.todo-item__text-input {
+  width: 100%;
+}
+
+.todo-item__title {
+  font-size: 18px;
+}
+
+.todo-item__title--completed {
+  text-decoration: line-through;
+}

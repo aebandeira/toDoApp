@@ -19,6 +19,7 @@ Linguagem e ferramentas/bibliotecas utilizadas:
 * Jest - versão 26.6.0;
 
 ### Setup e instalação de dependências
+Clone este repositório através do endereço: https://github.com/aebandeira/toDoApp
 
 #### Caso não tenha o `npm` instalado, pode-se instalar
 
@@ -45,7 +46,7 @@ Execute os seguintes comandos:
 * curl -sL https://deb.nodesource.com/setup\_13.x | sudo -E bash -
 * sudo apt install nodejs
 
-
+#### Siga com a instalação:
 Para poder executar localmente este projeto, deve-se primeiro instalar as dependências necessárias à aplicação:
 * `npm install`;
 

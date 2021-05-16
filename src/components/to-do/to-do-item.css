@@ -3,12 +3,12 @@
   display: flex;
   font-size: 18px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .todo-item__text {
   display: flex;
   flex-direction: column;
-  width: 85%;
 }
 
 .todo-item__date {

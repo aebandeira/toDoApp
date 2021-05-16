@@ -9,13 +9,13 @@ export function ToDoForm({ onSubmit, value, onChange }) {
       <Form.Group>
         <Form.Control
           type="text"
-          className="input"
+          className="todo-form__input"
           value={value}
           onChange={onChange}
           placeholder="Descreva sua nova tarefa"
           autoFocus
         />
-        <Button variant="primary mb-3" type="submit" className="button-form">
+        <Button variant="primary mb-3" type="submit" className="todo-form__button">
           Adicionar
         </Button>
       </Form.Group>

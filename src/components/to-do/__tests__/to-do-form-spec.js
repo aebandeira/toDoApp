@@ -14,7 +14,7 @@ describe("ToDoForm", () => {
   );
   describe("When value changes", () => {
     it("it should call onChange prop", () => {
-      component.find(".input").simulate("change", event);
+      component.find(".todo-form__input").simulate("change", event);
       expect(onChangeMock).toBeCalledWith(event);
     });
   });

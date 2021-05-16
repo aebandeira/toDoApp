@@ -18,8 +18,8 @@ export function ToDo({
 }) {
   return (
     <Fragment>
-      <h1 className="title">Olá!</h1>
-      <h2 className="subtitle">Quais são as suas tarefas de hoje?</h2>
+      <h1 className="todo__title">Olá!</h1>
+      <h2 className="todo__subtitle">Quais são as suas tarefas de hoje?</h2>
       <ToDoForm
         onSubmit={onFormSubmit}
         value={formValue}

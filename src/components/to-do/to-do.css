@@ -1,10 +1,10 @@
-.title {
+.todo__title {
   color: #fff;
   font-weight: 500;
   font-size: 70px;
 }
 
-.subtitle {
+.todo__subtitle {
   color: #fff;
   margin-bottom: 2%;
   font-size: 27px;

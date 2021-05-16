@@ -38,11 +38,11 @@ describe("ToDO", () => {
     />
   );
   it("it should render title and subtitle", () => {
-    const title = component.find(".title").get(0);
+    const title = component.find(".todo__title").get(0);
     expect(title).not.toBeUndefined();
     expect(title.props.children).toBe("Olá!");
 
-    const subtitle = component.find(".subtitle").get(0);
+    const subtitle = component.find(".todo__subtitle").get(0);
     expect(subtitle).not.toBeUndefined();
     expect(subtitle.props.children).toBe("Quais são as suas tarefas de hoje?");
   });

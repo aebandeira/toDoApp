@@ -27,7 +27,7 @@ export function ToDo({
       />
       <div>
         {toDoList.map((item, index) => (
-          <Card>
+          <Card key={index}>
             <Card.Body>
               <ToDoItem
                 key={index}
